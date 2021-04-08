@@ -26,7 +26,7 @@ PRODUCT_MAKEFILES += \
 	$(LOCAL_DIR)/havoc_h812_usu.mk \
 	$(LOCAL_DIR)/havoc_h815.mk \
 	$(LOCAL_DIR)/havoc_h815_usu.mk \
-	$(LOCAL_DIR)/javoc_ls991_usu.mk \
+	$(LOCAL_DIR)/havoc_ls991_usu.mk \
 	$(LOCAL_DIR)/havoc_us991_usu.mk \
 	$(LOCAL_DIR)/havoc_vs986_usu.mk
 
