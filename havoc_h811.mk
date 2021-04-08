@@ -14,14 +14,14 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(LOCAL_PATH)/lineage.mk)
+$(call inherit-product, $(LOCAL_PATH)/havoc.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Setup device specific product configuration
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_h811
+PRODUCT_NAME := havoc_h811
 PRODUCT_DEVICE := h811
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H811
@@ -45,4 +45,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnCdmaDevice=0 \
     telephony.lteOnGsmDevice=1
 
-DEBUG_ME += lineage_h811.mk
+DEBUG_ME += havoc_h811.mk
