@@ -45,4 +45,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnCdmaDevice=0 \
     telephony.lteOnGsmDevice=1
 
-DEBUG_ME += lineage_h815.mk
+DEBUG_ME += havoc_h815.mk
