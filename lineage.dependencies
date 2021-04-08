@@ -7,7 +7,7 @@
   {
     "repository":  "proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "revision":    "android-9.0",
+    "revision":    "android-10.0",
     "remote":      "suicide"
   }
 ]
