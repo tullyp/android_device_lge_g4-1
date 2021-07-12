@@ -21,4 +21,4 @@
 TARGET_OTA_ASSERT_DEVICE := g4,p1,$(CLEAN_MODEL)
 
 # inherit from the proprietary version
--include vendor/lge/h815/BoardConfigVendor.mk
+-include vendor/lge/h811/BoardConfigVendor.mk
